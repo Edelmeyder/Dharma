@@ -19,13 +19,13 @@
       "item": "minecraft:iron_block"
     },
     "L": {
-      "tag": "minecraft:diamond_pickaxe"
+      "tag": "minecraft:logs"
     },
     "P": {
-      "item": "minecraft:piston"
+      "item": "minecraft:diamond_pickaxe"
     }
   },
   "result": {
-    "item": "dharma:ember_coated_helmet"
+    "item": "dharma:quarry"
   }
 }
