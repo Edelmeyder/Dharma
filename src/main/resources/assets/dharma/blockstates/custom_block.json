@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=north": { "model": "dharma:block/custom_block" },
+    "facing=south": { "model": "dharma:block/custom_block", "y": 180 },
+    "facing=west":  { "model": "dharma:block/custom_block", "y": 270 },
+    "facing=east":  { "model": "dharma:block/custom_block", "y": 90 },
+    "default": { "model": "dharma:block/custom_block" }
+  }
+}

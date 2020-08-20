@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dharma:items/ember_pickaxe"
+  }
+}

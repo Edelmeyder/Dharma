@@ -1,0 +1,19 @@
+{
+	"item.dharma.ember_stone": "Ember Stone",
+	"itemGroup.dharma": "Dharma",
+	"block.dharma.ember_block": "Ember Block",
+	"item.dharma.ember_candy": "Ember Candy",
+	"item.dharma.ember_sword": "Ember Sword",
+	"item.dharma.ember_pickaxe": "Ember Pickaxe",
+	"item.dharma.ember_axe": "Ember Axe",
+	"item.dharma.ember_shovel": "Ember Shovel",
+	"item.dharma.ember_hoe": "Ember Hoe",
+	"item.dharma.ember_ring": "Ember Ring",
+	"block.dharma.ember_clay": "Ember Clay",
+	"item.dharma.ember_coated_iron_plate": "Ember Coated Iron Plate",
+	"item.dharma.ember_coated_helmet": "Ember Coated Iron Helmet",
+	"item.dharma.ember_coated_chestplate": "Ember Coated Iron Chestplate",
+	"item.dharma.ember_coated_leggings": "Ember Coated Iron Leggings",
+	"item.dharma.ember_coated_boots": "Ember Coated Iron Boots",
+	"block.dharma.custom_block": "Custom Block"
+}
