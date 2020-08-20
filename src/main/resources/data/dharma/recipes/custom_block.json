@@ -10,7 +10,7 @@
       "item": "dharma:ember_stone"
     },
     "i": {
-      "item": "forge:ingots/iron"
+      "tag": "forge:ingots/iron"
     }
   },
   "result": {
