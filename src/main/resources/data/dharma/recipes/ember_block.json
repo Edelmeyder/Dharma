@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iIi",
+    "IyI",
+    "iIi"
+  ],
+  "key": {
+    "I": {
+      "item": "dharma:ember_stone",
+      "count": 2
+    },
+    "i": {
+      "item": "minecraft:iron_nugget"
+    },
+    "y": {
+      "item": "dharma:ember_stone"
+    }
+  },
+  "result": {
+    "item": "dharma:ember_block"
+  }
+}

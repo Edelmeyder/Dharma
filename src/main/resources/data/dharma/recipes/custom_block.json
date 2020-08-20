@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iIi",
+    "iIi",
+    "iIi"
+  ],
+  "key": {
+    "I": {
+      "item": "dharma:ember_stone"
+    },
+    "i": {
+      "item": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "dharma:custom_block"
+  }
+}

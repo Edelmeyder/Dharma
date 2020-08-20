@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dharma:ember_clay"
+    }
+  ],
+  "result": {
+    "item": "dharma:ember_stone",
+    "count": "2"
+  }
+}

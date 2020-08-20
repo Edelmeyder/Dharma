@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FJF",
+    "KIK",
+    "LPL"
+  ],
+  "key": {
+    "I": {
+      "item": "dharma:ember_block"
+    },
+    "J": {
+      "item": "minecraft:piston"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "K": {
+      "item": "minecraft:iron_block"
+    },
+    "L": {
+      "tag": "minecraft:diamond_pickaxe"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "dharma:ember_coated_helmet"
+  }
+}

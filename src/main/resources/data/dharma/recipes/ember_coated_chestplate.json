@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "dharma:ember_coated_iron_plate"
+    }
+  },
+  "result": {
+    "item": "dharma:ember_coated_chestplate"
+  }
+}

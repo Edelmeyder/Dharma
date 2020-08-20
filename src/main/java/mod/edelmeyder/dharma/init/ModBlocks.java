@@ -1,6 +1,7 @@
 package mod.edelmeyder.dharma.init;
 
 import mod.edelmeyder.dharma.Dharma;
+import mod.edelmeyder.dharma.objects.blocks.BlockQuarry;
 import mod.edelmeyder.dharma.objects.blocks.CustomBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -30,4 +31,7 @@ public class ModBlocks {
             .harvestTool(ToolType.PICKAXE)
             .sound(SoundType.CORAL)
             .lightValue(5)));
+    public static final RegistryObject<Block> QUARRY = BLOCKS.register("quarry", () -> new BlockQuarry(Block.Properties.create(Material.ROCK)
+            .hardnessAndResistance(7.0f,4.3f)
+            .harvestTool(ToolType.PICKAXE)));
 }

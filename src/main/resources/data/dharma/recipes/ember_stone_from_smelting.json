@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dharma:ember_clay"
+  },
+  "result": "dharma:ember_stone",
+  "experience": 0.65,
+  "cookingtime": 200
+}

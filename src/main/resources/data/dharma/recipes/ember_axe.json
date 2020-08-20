@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    "Ii",
+    " i"
+  ],
+  "key": {
+    "I": {
+      "item": "dharma:ember_stone"
+    },
+    "i": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dharma:ember_axe"
+  }
+}

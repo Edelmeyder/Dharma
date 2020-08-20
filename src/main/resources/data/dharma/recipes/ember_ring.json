@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Ii ",
+    "i i",
+    " i "
+  ],
+  "key": {
+    "I": {
+      "item": "dharma:ember_stone"
+    },
+    "i": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "dharma:ember_ring"
+  }
+}

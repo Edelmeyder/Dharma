@@ -3,6 +3,7 @@ package mod.edelmeyder.dharma;
 import mod.edelmeyder.dharma.init.ModBlocks;
 import mod.edelmeyder.dharma.init.ModItemGroups;
 import mod.edelmeyder.dharma.init.ModItems;
+import mod.edelmeyder.dharma.init.ModTileEntityTypes;
 import mod.edelmeyder.dharma.world.gen.ModOreGen;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -34,6 +35,7 @@ public class Dharma {
 
         ModItems.ITEMS.register(eventBus);
         ModBlocks.BLOCKS.register(eventBus);
+        ModTileEntityTypes.TILE_ENTITY_TYPES.register(eventBus);
 
     }
 
