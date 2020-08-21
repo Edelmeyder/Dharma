@@ -16,5 +16,9 @@
 	"item.dharma.ember_coated_leggings": "Ember Coated Iron Leggings",
 	"item.dharma.ember_coated_boots": "Ember Coated Iron Boots",
 	"block.dharma.custom_block": "Custom Block",
-	"block.dharma.quarry": "Quarry"
+	"block.dharma.quarry": "Quarry",
+	"block.dharma.ember_stairs": "Ember Stairs",
+	"block.dharma.ember_fence": "Ember Fence",
+	"block.dharma.ember_button": "Ember Button",
+	"block.dharma.ember_pressure_plate": "Ember Pressure Plate"
 }

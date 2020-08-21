@@ -3,8 +3,9 @@ package mod.edelmeyder.dharma.init;
 import mod.edelmeyder.dharma.Dharma;
 import mod.edelmeyder.dharma.objects.blocks.BlockQuarry;
 import mod.edelmeyder.dharma.objects.blocks.CustomBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
+import mod.edelmeyder.dharma.objects.blocks.ModButton;
+import mod.edelmeyder.dharma.objects.blocks.ModPressurePlate;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
@@ -34,4 +35,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> QUARRY = BLOCKS.register("quarry", () -> new BlockQuarry(Block.Properties.create(Material.ROCK)
             .hardnessAndResistance(7.0f,4.3f)
             .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> EMBER_STAIRS = BLOCKS.register("ember_stairs", () -> new StairsBlock(() -> EMBER_BLOCK.get().getDefaultState(), Block.Properties.from(EMBER_BLOCK.get())));
+    public static final RegistryObject<Block> EMBER_FENCE = BLOCKS.register("ember_fence", () -> new FenceBlock(Block.Properties.from(EMBER_BLOCK.get())));
+    public static final RegistryObject<Block> EMBER_BUTTON = BLOCKS.register("ember_button", () -> new ModButton(Block.Properties.from(EMBER_BLOCK.get())));
+    public static final RegistryObject<Block> EMBER_PRESSURE_PLATE = BLOCKS.register("ember_pressure_plate", () -> new ModPressurePlate(PressurePlateBlock.Sensitivity.EVERYTHING, Block.Properties.from(EMBER_BLOCK.get())));
 }
