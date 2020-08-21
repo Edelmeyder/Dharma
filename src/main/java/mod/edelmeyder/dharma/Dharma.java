@@ -1,12 +1,10 @@
 package mod.edelmeyder.dharma;
 
-import mod.edelmeyder.dharma.init.ModBlocks;
-import mod.edelmeyder.dharma.init.ModItemGroups;
-import mod.edelmeyder.dharma.init.ModItems;
-import mod.edelmeyder.dharma.init.ModTileEntityTypes;
+import mod.edelmeyder.dharma.init.*;
 import mod.edelmeyder.dharma.world.gen.ModOreGen;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.world.biome.Biome;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -36,6 +34,7 @@ public class Dharma {
         ModItems.ITEMS.register(eventBus);
         ModBlocks.BLOCKS.register(eventBus);
         ModTileEntityTypes.TILE_ENTITY_TYPES.register(eventBus);
+        ModBiomes.BIOMES.register(eventBus);
 
     }
 
@@ -49,6 +48,11 @@ public class Dharma {
             blockItem.setRegistryName(block.getRegistryName());
             registry.register(blockItem);
         });
+    }
+
+    @SubscribeEvent
+    public static void onRegisterBiomes(final RegistryEvent.Register<Biome> event) {
+        ModBiomes.RegisterBiomes();
     }
 
     private void setup(final FMLCommonSetupEvent event) {
